@@ -1,0 +1,45 @@
+<AttentionGame>:
+    FloatLayout:
+
+<StartScreen>:
+    BoxLayout:
+        orientation:"vertical"
+        Button:
+            text: 'Click to Start!'
+            on_release: app.root.current = 'game'
+
+<GameScreen>:
+    FloatLayout:
+        orientation: 'vertical'
+        canvas:
+            Rectangle:
+                size: root.width, root.height
+                source: 'SpotTheChick.jpg'
+        Brain:
+            id: brain_btn
+            size_hint: .09, .09
+            on_press: 
+                root.manager.current = 'end'
+                #root.playagain()
+
+        DummyBrain:
+
+<EndScreen>:
+    FloatLayout:
+        Button:
+            text:'Play Again'
+            pos: 20, 0
+            on_press: root.restart()
+        
+
+        
+
+        
+        
+                
+       
+           
+        
+
+        
+
