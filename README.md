@@ -2,7 +2,7 @@
 friedBrains Portfolio Project
 
 
-Goal: Predict sleep deprivation (0,1) based on IVs as determined by data collected using mobile games.​
+Goal: Predict cognitive deviation (0,1) based on IVs as determined by data collected using mobile games.​
 
 Quantitively determine a user's cognitive baseline and any deviation​
 
